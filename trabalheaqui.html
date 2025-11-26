@@ -113,10 +113,13 @@
     .folder-img:hover {
     transform: scale(1.1);
     }
-    .sheets-icon {
-    width: 100px;
-    height: auto;
-    }
+
+  .sheets-icon {
+  width: 100px;
+  height: 138px;
+  object-fit: contain;  /* garante que o desenho não distorça */
+}
+
 
   </style>
 </head>
@@ -165,8 +168,9 @@
       <h2> Etapa 6: Veja os Resultados</h2>
       <p>Após a execução do Colab, os dados extraídos estarão organizados na planilha</p>        
       <p>A organização do cabeçalho deve ser seguida da seguinte forma: (Nome da obra | Autor | Edição | Ano da Publicação | Editora ) >planilha acessível</a>, armazenada no Google Drive.</p>
-      <a href="https://docs.google.com/spreadsheets/d/1TGTT5KlOHKJj0i8ZSAvQqN0q767lEi0L7VFjhSywUTg/edit?usp=sharing" target="_blank" class="btn">📄 Ver Planilha</a>
+      
          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Google_Sheets_2020_Logo.svg" alt="Google Sheets">
+      <a href="https://docs.google.com/spreadsheets/d/1TGTT5KlOHKJj0i8ZSAvQqN0q767lEi0L7VFjhSywUTg/edit?usp=sharing" target="_blank" class="btn">📄 Ver Planilha</a>
          <div class="step-content">
          </a>
       </div>
